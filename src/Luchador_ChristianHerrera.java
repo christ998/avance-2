@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Luchador{
+public class Luchador_ChristianHerrera {
              
      int atk;
      int def;
@@ -11,7 +11,7 @@ public class Luchador{
      String nombre;
      String faccion;
     
-    Luchador(){
+    Luchador_ChristianHerrera (){
      this.atk = atk()*this.rango; 
      this.def = defensa()*this.rango;
      this.vel = vel()*this.rango;

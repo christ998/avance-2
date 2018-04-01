@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-   public class InventarioLuchador {
-   static ArrayList <Luchador> inventario = new ArrayList <>();
+   public class InventarioLuchador_ChristianHerrera {
+   static ArrayList <Luchador_ChristianHerrera> inventario = new ArrayList <>();
 
 
-   InventarioLuchador(){
+   InventarioLuchador_ChristianHerrera (){
    }
     
    /*public static void main(String [] args){
@@ -19,7 +19,7 @@ import java.util.Scanner;
     if(inventario.size() == 25){
     System.out.println("Ha alcanzado el máximo de luchadores");
     }else{
-    inventario.add(new Luchador());
+    inventario.add(new Luchador_ChristianHerrera());
     System.out.println("Luchador creado");
     }
     
@@ -86,7 +86,7 @@ import java.util.Scanner;
         
     }
     
-    public void cantidadLuchadores(ArrayList<Luchador> inventario){
+    public void cantidadLuchadores(ArrayList<Luchador_ChristianHerrera> inventario){
       System.out.println("Hay "+inventario.size()+" luchadores");
     }
  

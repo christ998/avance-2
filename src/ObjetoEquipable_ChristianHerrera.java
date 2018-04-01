@@ -1,13 +1,13 @@
 import java.util.Random;
 import java.util.ArrayList;
-public class ObjetoEquipable {
+public class ObjetoEquipable_ChristianHerrera {
   
   int rango;  
   int base;
   int mejora;
   String carac;
  
-  ObjetoEquipable(){
+  ObjetoEquipable_ChristianHerrera (){
   this.rango = probabilidad();
   setMejoraBase();
   this.base = getMejoraBase();
@@ -22,8 +22,8 @@ public class ObjetoEquipable {
   mostrarCaracteristicas(inventario);
   }*/
   
-  public static ArrayList<ObjetoEquipable> crearObjetoEquipable (ArrayList <ObjetoEquipable> inventario){
-   inventario.add(new ObjetoEquipable());
+  public static ArrayList<ObjetoEquipable_ChristianHerrera> crearObjetoEquipable (ArrayList <ObjetoEquipable_ChristianHerrera> inventario){
+   inventario.add(new ObjetoEquipable_ChristianHerrera());
    return inventario;
   }
   
@@ -93,7 +93,7 @@ public class ObjetoEquipable {
  return this.mejora;
  }
  
- public static void mostrarCaracteristicas(ArrayList <ObjetoEquipable> inventario){
+ public static void mostrarCaracteristicas(ArrayList <ObjetoEquipable_ChristianHerrera> inventario){
      for(int i = 0; i < inventario.size();i++){
      System.out.println("El objeto mejora: "+inventario.get(i).carac);
      System.out.println("Tiene un rango de: "+inventario.get(i).rango);
